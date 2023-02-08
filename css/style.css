@@ -1,0 +1,220 @@
+* {
+  font-family: "Comfortaa", cursive;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-width: 960px;
+}
+#navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.547);
+}
+
+#logo img {
+  margin: 2px 5px;
+  padding: 1px;
+  width: 40px;
+}
+.item {
+  list-style: none;
+}
+
+#navbar li a:hover {
+  color: black;
+  background-color: white;
+}
+#navbar li a {
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 20px;
+  color: white;
+  margin: 1px 3px;
+  opacity: 1;
+}
+#navbar .search {
+  position: absolute;
+  right: 10px;
+}
+.search input {
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  border-radius: 30px;
+  border: 2px solid white;
+  padding: 8px;
+}
+
+.search .btn-search {
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  font-size: 40px;
+  right: 6px;
+  top: -8px;
+  cursor: pointer;
+}
+.search .btn-search:hover {
+  font-weight: bolder;
+}
+
+#homepage {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 220px;
+  justify-content: center;
+  align-items: center;
+}
+#homepage::before {
+  content: "";
+  position: absolute;
+  background: url("../img/pasta.jpg") no-repeat center center/cover;
+  height: 500px;
+  width: 100%;
+  min-width: 960px;
+  z-index: -1;
+  opacity: 0.9;
+  top: 0%;
+}
+
+#homepage h1 {
+  margin-top: 80px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+}
+#homepage p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.108);
+  border-radius: 30px;
+  padding: 5px;
+}
+
+#services .box img {
+  display: block;
+  height: 200px;
+  margin: auto;
+  border-radius: 30px;
+}
+
+#services {
+  display: flex;
+}
+#services .box {
+  padding: 20px 20px;
+  margin: 20px;
+  background-color: rgb(255 209 203 / 22%);
+  border-radius: 30px;
+}
+#services .box:hover {
+  background-color: rgba(255, 209, 203, 0.655);
+}
+.services-container {
+  margin: 140px auto 0px auto;
+}
+.services-container > h1 {
+  margin-top: 80px;
+  background-image: linear-gradient(
+    rgba(233, 233, 233, 0),
+    rgb(255, 209, 203),
+    rgb(255, 209, 203),
+    rgba(233, 233, 233, 0)
+  );
+  color: white;
+  border-radius: 30px;
+}
+
+#clients-container {
+  display: block;
+}
+
+#clients-container > h1 {
+  margin-bottom: 20px;
+  background-image: linear-gradient(
+    rgba(233, 233, 233, 0),
+    rgb(255, 209, 203),
+    rgb(255, 209, 203),
+    rgba(233, 233, 233, 0)
+  );
+  color: white;
+  border-radius: 30px;
+}
+#clients-container .clients {
+  display: flex;
+  margin: auto;
+  margin-top: 0px;
+  background: url("../img/clients/client-bg.jpg") no-repeat center center/cover;
+  justify-content: space-around;
+}
+
+.client-item img {
+  height: 150px;
+  padding: 20px;
+  border-radius: 30px;
+  opacity: 1;
+}
+#contact-us > h1 {
+  background-image: linear-gradient(
+    rgba(233, 233, 233, 0),
+    rgb(255, 209, 203),
+    rgb(255, 209, 203),
+    rgba(233, 233, 233, 0)
+  );
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+
+}
+
+#contact-us .contact-box {
+  display: flex;
+  background: url("../img/contactus.jpg") no-repeat center center/cover;
+  height: 500px;
+  justify-content: center;
+}
+.contact-box .form-group {
+  text-align: center;
+  color: rgb(255, 190, 190);
+  background-color: rgba(0, 0, 0, 0.308);
+  border-radius: 36px;
+  margin-top: 20px;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+.form-group input {
+  display: block;
+  margin: 5px;
+  font-size: 14px;
+  width: 800px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.54);
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+  border-radius: 36px;
+  font-weight: lighter;
+}
+.form-group input:hover {
+  background-color: white;
+  color: black;
+  opacity: 0.5;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 40px;
+}

@@ -1,0 +1,36 @@
+@media screen and (max-width: 1200px) {
+  #navbar {
+    width: 100%;
+  }
+  .client-item > img {
+    height: 120px;
+  }
+
+  #navbar {
+    min-width: 548px;
+  }
+  #services .box img {
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #navbar {
+    height: 10vh;
+  }
+  #navbar .search input {
+    display: none;
+  }
+  .search .btn-search {
+    top: -25px;
+  }
+  .client-item > img {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #navbar .search {
+    display: none;
+  }
+}

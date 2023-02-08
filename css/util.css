@@ -1,0 +1,26 @@
+.h1-primary{
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.h2-primary{
+    font-size: 2rem;
+    padding: 20px;
+}
+.text-center{
+    text-align: center;
+}
+.btn{
+    padding: 7px 20px;
+    margin: 30px auto 10px auto;
+    background-color: rgb(197 29 29 / 80%);
+    color: White;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(22 189 234 / 75%);
+}
